@@ -1,0 +1,53 @@
+{
+  "name": "react-movie-cards",
+  "version": "1.0.0",
+  "description": "A basic application that displays a list of movies as a list of cards",
+  "scripts": {
+    "build": "webpack -d",
+    "build:watch": "webpack --watch",
+    "lint": "eslint .; exit 0",
+    "lint:fix": "eslint . --fix",
+    "serve": "webpack -p && live-server ./public",
+    "serve:dev": "webpack-dev-server --open",
+    "start": "npm run serve",
+    "test": "echo \"No tests available\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drminnaar/react-movie-cards.git"
+  },
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.2.3",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.12.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
