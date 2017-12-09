@@ -14,6 +14,12 @@ This project also demonstrates:
 * eslint setup and configuration
 * SCSS setup and configuration
 
+**Screenshots:**
+
+![react-movie-cards-1](https://user-images.githubusercontent.com/33935506/33792483-dc335206-dca9-11e7-8f5d-420dc2ce262d.PNG)
+![react-movie-cards-2](https://user-images.githubusercontent.com/33935506/33792484-dc73ffc2-dca9-11e7-91a7-829f6df41648.PNG)
+![react-movie-cards-3](https://user-images.githubusercontent.com/33935506/33792485-dcb96fda-dca9-11e7-96fd-6c26435d94ce.PNG)
+
 ---
 
 ## Developed With
@@ -30,11 +36,28 @@ This project also demonstrates:
 ## Related Projects
 
 * [react-starter]
+
+  A basic template that consists of the essential elements that are required to start building a React application
+
 * [react-clicker]
+
+  A basic React app that allows one to increase, decrease, or reset a counter
+
 * [react-clock-basic]
+
+  A basic clock that displays the current date and time
+
 * [react-timer-basic]
+
+  A basic timer that will start a countdown based on an input of time in seconds
+
 * [react-timer-advanced]
+
+   A basic countdown timer that offers an advanced UI experience
+
 * [react-masterminds]
+
+  A basic game of guessing a number with varying degrees of difficulty
 
 ---
 
@@ -150,3 +173,4 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-basic]: https://github.com/drminnaar/react-timer-basic
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
+[react-movie-cards]: https://github.com/drminnaar/react-movie-cards
