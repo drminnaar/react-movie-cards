@@ -6,6 +6,28 @@ Futhermore, I have configured webpack to make use of the [copy-webpack-plugin](h
 
 For styling, I have adopted bootstrap4 beta. I use SCSS for all custom written styles.
 
+The application is composed of the following components:
+
+* Header - A heading that displays application title
+
+* Movies - The primary (root) component that manages state for Movies and all underlying components. It is also responsible for connecting to _MovieService_ to retrieve movie data
+
+* MovieList - Groups a collection of movies
+
+* MovieCard - Represents a single instance of a movie
+
+* StarRating - Indicates average rating of a movie as a list of 5 stars
+
+Component Diagram
+![Component Diagram](https://user-images.githubusercontent.com/33935506/34461060-3526427a-ee29-11e7-8e1c-03f91507c184.png)
+
+The following services are used to obtain movie data:
+
+* MovieService - A wrapper that retrieves data from a json file containing a list of movies
+
+Service Diagram
+![Service Diagram](https://user-images.githubusercontent.com/33935506/34461059-34f6e87c-ee29-11e7-9678-848e3e3ffee9.png)
+
 This project also demonstrates:
 
 * a typcial React project layout structure
@@ -58,6 +80,18 @@ This project also demonstrates:
 * [react-masterminds]
 
   A basic game of guessing a number with varying degrees of difficulty
+
+* [react-calculator-standard]
+
+  A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions
+
+* [react-bitcoin-monitor]
+
+  An app that monitors changes in the Bitcoin Price Index (BPI)
+
+* [react-weather-standard]
+
+  A weather application that displays the current weather, daily forecasts, and hourly forecasts based on your current geolocation
 
 ---
 
@@ -174,3 +208,6 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
 [react-movie-cards]: https://github.com/drminnaar/react-movie-cards
+[react-calculator-standard]: https://github.com/drminnaar/react-calculator-standard
+[react-bitcoin-monitor]: https://github.com/drminnaar/react-bitcoin-monitor
+[react-weather-standard]: https://github.com/drminnaar/react-weather-standard
