@@ -1,6 +1,10 @@
 # React Movie Cards
 
-A basic application that displays a list of movies as a list of cards. Each card provides movie detail such as title, subtitle, description, image, and rating. This is a good example of using nested components because it illustrates a nesting of components 3 levels deep. A _Movie_ component has a _MovieList_ component has a _MovieCard_ component has a _StarRating_ component. The _Movie_ component also uses a service called _MovieService_ to retrieve a list of movies (this is from a json document).
+A basic application that displays a list of movies as a list of cards. Each card provides movie detail such as title, subtitle, description, image, and rating.
+
+Go **[here](http://react-movie-cards.drminnaar.me/)** for live demo.
+
+This is a good example of using nested components because it illustrates a nesting of components 3 levels deep. A _Movie_ component has a _MovieList_ component has a _MovieCard_ component has a _StarRating_ component. The _Movie_ component also uses a service called _MovieService_ to retrieve a list of movies (this is from a json document).
 
 Futhermore, I have configured webpack to make use of the [copy-webpack-plugin](https://www.npmjs.com/package/copy-webpack-plugin) to copy images into the _public_ folder. I have also included the [json-loader](https://www.npmjs.com/package/json-loader) to load my movie collection from a json file called movies.json.
 
@@ -52,6 +56,7 @@ This project also demonstrates:
 * [Webpack](https://webpack.js.org/) - A module bundler
 * [SCSS](http://sass-lang.com/) - A css metalanguage
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
+* [Surge] - Static web publishing for Front-End Developers
 
 ---
 
@@ -201,6 +206,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
+[Surge]: https://surge.sh/
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
