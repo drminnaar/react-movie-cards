@@ -1,12 +1,48 @@
 .movie-card {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    max-width: 300px;
-    width: 300px;
+    .card {
+        height: 450px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        max-width: 300px;
+        width: 300px;
+
+        &-gold {
+            border: 3px solid gold;
+        }
+
+        &-silver {
+            border: 3px solid silver;
+        }
+    }
 }
 
-.movie-card.card {
-    height: 450px;
+ .movie-card.col-sm-6 {
+     &:nth-child(odd) {
+         .card {
+            display: flex;
+            flex-direction: column-reverse;
+         }
+    }
+}
+
+.movie-card.col-sm-12 {
+    .card { 
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+    }
+
+    &:nth-child(odd) {
+        .card {   
+            flex-direction: row;
+        }
+    }
+        
+    &:nth-child(even) {
+       .card {   
+            flex-direction: row-reverse;
+        }
+    }
 }
 
 .card-footer-badge {

@@ -1,0 +1,15 @@
+.dropdown-menu {
+    display: block;
+
+    .dropdown-item {
+        text-align: center;
+
+        &:active {
+            background-color: inherit;
+        }
+
+        &-selected {
+            background-color: gold;
+        }
+    }
+}

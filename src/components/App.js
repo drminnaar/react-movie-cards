@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Movies from './Movie/Movies';
+import { ConnectedMovies as Movies } from './Movie/Movies';
 
 export default class App extends Component {
 

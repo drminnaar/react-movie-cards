@@ -8,7 +8,9 @@
     "lint": "eslint .; exit 0",
     "lint:fix": "eslint . --fix",
     "serve": "webpack -p && live-server ./public",
-    "serve:dev": "webpack-dev-server --open",
+    "serve:dev": "npm-run-all -p start:api start:dev",
+    "start:dev": "webpack-dev-server --open",
+    "start:api": "./node_modules/.bin/json-server --watch src/server/db.json",
     "start": "npm run serve",
     "test": "echo \"No tests available\" && exit 0"
   },
@@ -40,6 +42,7 @@
     "html-webpack-plugin": "^2.30.1",
     "live-server": "^1.2.0",
     "node-sass": "^4.7.2",
+    "npm-run-all": "4.1.5",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "url-loader": "^0.6.2",
@@ -47,8 +50,13 @@
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
+    "json-server": "0.15.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-redux": "5.0.5",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.2.0"
   }
 }
