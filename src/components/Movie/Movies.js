@@ -61,7 +61,6 @@ Movies.propTypes = {
     movies: PropTypes.array.isRequired,
     ratings: PropTypes.array.isRequired,
     loadMovies: PropTypes.func.isRequired,
-    loadRatings: PropTypes.func.isRequired,
 };
 
 export const ConnectedMovies = connector(Movies);
