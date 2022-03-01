@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Movies from './Movie/Movies';
 
-const App = () = {
+const App = () => {
     const [title, setTitle] = ('React Movie Cards');
     
     return (
