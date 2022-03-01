@@ -34,7 +34,7 @@ Service Diagram
 
 This project also demonstrates:
 
-* a typcial React project layout structure
+* a typical React project layout structure
 * babel setup and configuration
 * webpack setup and configuration
 * eslint setup and configuration
