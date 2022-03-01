@@ -1,6 +1,6 @@
 # React Movie Cards
 
-A basic application that displays a list of movies as a list of cards. Each card provides movie detail such as title, subtitle, description, image, and rating.
+A basic application that displays a list of movies as a list of cards. Each card provides movie details such as title, subtitle, description, image, and rating.
 
 Go **[here](http://react-movie-cards.drminnaar.me/)** for live demo.
 
