@@ -2,7 +2,7 @@
 
 A basic application that displays a list of movies as a list of cards. Each card provides movie detail such as title, subtitle, description, image, and rating.
 
-Go **[here](http://react-movie-cards.drminnaar.me/)** for live demo.
+Go **[here](http://react-movie-cards.drminnaar.me/)** for a live demo.
 
 This is a good example of using nested components because it illustrates a nesting of components 3 levels deep. A _Movie_ component has a _MovieList_ component has a _MovieCard_ component has a _StarRating_ component. The _Movie_ component also uses a service called _MovieService_ to retrieve a list of movies (this is from a json document).
 
